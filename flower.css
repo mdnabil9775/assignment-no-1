@@ -58,6 +58,9 @@
     border: none;
     box-shadow: 5px 5px 10px rgb(125, 125, 125);
 }
+.btn-1 i{
+    margin-right: 10px;
+}
 .btn-1:hover{
     color: gray;
     background-color: black;
@@ -245,22 +248,19 @@ display: flex;
     color: gray;
     margin-bottom: 50px;
 }
+/* footer section  */
 .footer-cont{
     height: 50vh;
     background-color: black;
     margin-top: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
-.footer-text{
-
-}
-.footer-text h1{
+.ft-h1{
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
 .ft-color{
     color: #E55473;
@@ -270,6 +270,29 @@ display: flex;
     font-size: 20px;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+.ft-icon i{
+    margin-right: 10px;
+}
+.ft-p{
+    color: #F2DEE7;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.p-align{
+    text-align: right;
+    border-right: 5px solid #E55473;
+    padding-right: 40px;
+}
+.ft-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-right: 180px;
 }
 .footer-text p>small{
     font-size: 12px;
